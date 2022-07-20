@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+.menu {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-image: url(https://www.msc.com/-/media/images/msc-cargo/vessels/2010/3/msc20003550.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1 {
+	color: white;
+	font-size: 25px;
+	margin-top: 30px;
+}
+nav {
+	display: flex;
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	align-items: center;
+	justify-content: space-between;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px 20px;
+}
+nav ul li a{	
+	color: white;
+	font-weight: bold;
+}
+.home {
+	margin-left: 10%;
+	margin-top: 8%;
+}
+.home h1 {
+	font-size: 20px;
+	color: white;
+	margin-bottom: 10px;
+}
+.home p {
+	color: white;
+	line-height: 25px;
+	font-size: 15px;
+	font-family: monospace;
+
+}
+.jasa {
+	background: transparent;
+	width: 30%;
+	position: absolute;
+	right: 15%;
+	bottom: 25%;
+	align-items: center;
+}
+h2 {
+	color: white;
+	font-size: 20px;
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: times new roman;
+}
+.content {
+	padding: 5px;
+}
+table {
+	margin: auto;
+	padding-bottom: 6%;
+}
+table td {
+	padding: 6px;
+	font-family: times new roman;
+	font-size: 15px;
+	color: white;
+}
+button {
+	font-weight: bold;
+	font-size: 10px;
+	width: 60px;
+	font-family: sans-serif;
+	height: 30px;
+	background-color: white;
+	border-radius: 6px;
+}
